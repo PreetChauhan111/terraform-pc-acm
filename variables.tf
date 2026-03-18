@@ -1,9 +1,3 @@
-variable "environment" {
-  description = "Deployment environment for the ACM certificate"
-  type        = string
-  default     = "dev"
-}
-
 variable "create_certificate" {
   description = "Whether to create ACM certificate"
   type        = bool
